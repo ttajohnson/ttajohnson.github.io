@@ -1,11 +1,14 @@
 html {
     box-sizing: border-box;
+    background-image: url(ghost.jpeg)
 }
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
 body {
+    background-color: rgba(0, 0, 0, 0.351);
+    color: whitesmoke;
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
@@ -15,6 +18,10 @@ body {
 img {
 	display: block;
 	max-width: 100%;
+}
+
+.button {
+    color: whitesmoke;
 }
 
 .container {
@@ -33,6 +40,12 @@ img {
 }
 
 .projects {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.contact {
     margin-top: 4rem;
     margin-bottom: 4rem;
     text-align: center;
