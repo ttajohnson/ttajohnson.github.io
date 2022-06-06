@@ -24,6 +24,11 @@ p {
     font-size: large;
 }
 
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .button {
     color: whitesmoke;
     font-family: 'Zen Kurenaido', "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
