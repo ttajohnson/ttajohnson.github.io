@@ -27,6 +27,7 @@ p {
 ul {
     display: flex;
     justify-content: space-evenly;
+    font-size: large;
 }
 
 .button {
@@ -70,4 +71,3 @@ ul {
 #code, #audio  {
     font-size: x-large;
 }
-
