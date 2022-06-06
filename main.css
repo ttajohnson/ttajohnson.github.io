@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    background-image: url(ghost.jpeg)
+    background-image: url(ghost.jpeg);
 }
 *, *:before, *:after {
     box-sizing: inherit;
