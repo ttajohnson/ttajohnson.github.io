@@ -20,12 +20,17 @@ img {
 	max-width: 100%;
 }
 
+p {
+    font-size: large;
+}
+
 .button {
     color: whitesmoke;
 }
 
 .container {
     max-width: 800px;
+    margin-bottom: 5rem;
 }
 
 .header {
@@ -48,6 +53,11 @@ img {
 .contact {
     margin-top: 4rem;
     margin-bottom: 4rem;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 10rem;
     text-align: center;
 }
 
