@@ -12,7 +12,7 @@ body {
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
-    /* font-family: 'Zen Kurenaido', Arial, Helvetica, sans-serif; */
+    
 }
 
 img {
@@ -22,10 +22,6 @@ img {
 
 .button {
     color: whitesmoke;
-}
-
-.button:hover {
-    
 }
 
 .container {
@@ -54,3 +50,8 @@ img {
     margin-bottom: 4rem;
     text-align: center;
 }
+
+#code, #audio  {
+    font-size: x-large;
+}
+
