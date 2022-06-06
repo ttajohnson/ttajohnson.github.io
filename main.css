@@ -30,10 +30,14 @@ ul {
     font-size: large;
 }
 
+
 .button {
     color: whitesmoke;
     font-family: 'Zen Kurenaido', "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 1rem;
+    
 }
+
 
 .container {
     max-width: 800px;
@@ -71,3 +75,20 @@ ul {
 #code, #audio  {
     font-size: x-large;
 }
+
+#twit:hover span {
+    display: none;
+}
+
+#twit:hover:before {
+    content: "@ttajohnson";
+}
+
+#insta:hover span {
+    display: none;
+}
+
+#insta:hover::before {
+    content: "ritual_kit";
+}
+

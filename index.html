@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">  
     <script src="https://kit.fontawesome.com/bee25b55a9.js" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="skeleton.css">
@@ -15,9 +18,10 @@
 </head>
 <body>
     <div class="container">
+        <a href="top"></a>
         <section class="header">
             <br>
-            <h2 class="title">Timothy Johnson</h2>
+            <h2 class="title" data-text="Timothy Johnson"><span>Timothy Johnson</span></h2>
             <br>
             <a class="button" href="#about">About</a>
             <a class="button" href="#projects">Projects</a>
@@ -63,13 +67,16 @@
         <section class="contact" id="contact">
             <h3>Contact</h3>
             <div class="contact row">
-                <a class="button" href = "mailto: tim.ttaj@gmail.com">EMAIL</a><br>
-                <a class="button" href="https://github.com/ttajohnson">GITHUB</a>
+                <a class="button" href = "mailto: tim.ttaj@gmail.com">EMAIL</a>
+                <a class="button" href="https://github.com/ttajohnson">GITHUB</a><br>
+                <a class="button" id="twit" href="https://twitter.com/ttajohnson"><span>TWITTER</span></a>
+                <a class="button" id="insta" href="https://www.instagram.com/ritual_kit/"><span>INSTAGRAM</span></a>
 
 
             </div>
         </section>
         <section class="footer">
+            <a class="button" href="#top">Back To Top</a>
             <h6>Copyright &copy; Timothy Johnson 2022</h6>
         </section>  
     </div>
