@@ -1,18 +1,18 @@
 html {
     box-sizing: border-box;
-    background-image: url(ghost.jpeg);
+    
 }
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.351);
+    background-color: rgba(0, 0, 0, 0.716);
     color: whitesmoke;
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
-    font-family: 'Zen Kurenaido', Arial, Helvetica, sans-serif;
+    /* font-family: 'Zen Kurenaido', Arial, Helvetica, sans-serif; */
 }
 
 img {
@@ -22,6 +22,10 @@ img {
 
 .button {
     color: whitesmoke;
+}
+
+.button:hover {
+    
 }
 
 .container {
