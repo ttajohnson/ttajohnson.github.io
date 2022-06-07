@@ -1,0 +1,5 @@
+Assets:
+- normalize.css
+- skeleton.css
+- ghost.png (owned)
+

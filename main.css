@@ -34,10 +34,8 @@ ul {
 .button {
     color: whitesmoke;
     font-family: 'Zen Kurenaido', "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 1rem;
-    
+    margin: 1rem;  
 }
-
 
 .container {
     max-width: 800px;
@@ -71,6 +69,8 @@ ul {
     margin-top: 10rem;
     text-align: center;
 }
+
+
 
 #code, #audio  {
     font-size: x-large;
