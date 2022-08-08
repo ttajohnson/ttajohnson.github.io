@@ -72,23 +72,15 @@ ul {
 
 
 
-#code, #audio  {
+#code  {
     font-size: x-large;
 }
 
-#twit:hover span {
+#linkedin:hover span {
     display: none;
 }
 
-#twit:hover:before {
-    content: "@ttajohnson";
-}
-
-#insta:hover span {
-    display: none;
-}
-
-#insta:hover::before {
-    content: "ritual_kit";
+#linkedin:hover::before {
+    content: "Open to Work";
 }
 
