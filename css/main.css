@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    background-image: url(ghost.png);
+    background-image: url(/img/mahdi-bafande-5mYwPsSUedA-unsplash.jpg);
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -83,4 +83,3 @@ ul {
 #linkedin:hover::before {
     content: "Open to Work";
 }
-
