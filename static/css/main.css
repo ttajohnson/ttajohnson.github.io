@@ -11,5 +11,32 @@ img {
 }
 
 body {
-    margin: 1rem;
+    margin: 2rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    background-color: rgb(212, 212, 212);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    padding-left: 2rem;
+    margin-bottom: 5rem;
+
+}
+
+.sect-title {
+    font-weight: 800;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
