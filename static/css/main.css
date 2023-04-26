@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Geo-Reg';
+    src: url(../fonts/Geo-Regular.ttf);
+}
+
 html {
     box-sizing: border-box;
 }
@@ -17,16 +22,13 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #header {
-    border: 1px solid red;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,33 +41,49 @@ body {
     margin-top: 25px;
 }
 
+#title {
+    margin-top: -3rem;
+    font-family: 'Geo-Reg', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#contact-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.links {
+    max-width: 64px;
+}
+
+#contact-links h3 {
+    font-family: 'Geo-Reg';
+    font-weight: 100;
+    text-align: center;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-#sections {
-    margin-top: 50px;
-    border-left: 1px solid white;
-    padding-left: 1rem;
+#about-me {
+    width: 300px;
 }
 
-.sect-title {
-    font-weight: 800;
+#type-text {
+    text-align: justify;
+    animation: typing 4s steps(40, end), blink-caret 1s step-end infinite;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
-ul a {
-    text-decoration: none;
-    color: white;
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 5%;
-}
-
-ul a:hover {
-    color: rgb(111, 111, 111);
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
 }
