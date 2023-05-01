@@ -69,11 +69,10 @@ body {
 }
 
 #type-text {
-    margin-left: 2.15rem;
     font-family: 'Geo-Reg';
     font-weight: 100;
     text-align: justify;
-    animation: typing 4s steps(40, end), blink-caret 1s step-end infinite;
+    animation: typing 0.5s steps(40, end);
 }
 
 @keyframes typing {
@@ -89,4 +88,11 @@ body {
     50% {
         border-color: transparent;
     }
+}
+
+#summary {
+    font-family: 'Geo-Reg';
+    font-weight: 100;
+    text-align: justify;
+    font-size: large;
 }
